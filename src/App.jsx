@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MovieList from './components/MovieList';
 import Filter from './components/Filter';
 import MovieDetails from './components/MovieDetails';
